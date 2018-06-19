@@ -1,0 +1,15 @@
+<h1>HELLO LOGIN!</h1>
+<br>
+
+<form action="/login" method="post">
+  <label for="username">Username: </label>
+  <input type="text" name="username">
+  <label for="password">Password: </label>
+  <input type="password" name="password">
+  <button type="submit">SAVE</button>
+</form>
+</div>
+{{#if message}}
+  <div>ERROR: {{ message }}</div>
+{{/if}}
+<div>
